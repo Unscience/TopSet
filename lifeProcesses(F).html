@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Life Processes | Top Set</title>
+    <link rel = 'stylesheet' href ='index.css'>
+    <meta charset="UTF-8">
+    <meta name="description" content=" Life Processes Options Page">
+    <meta name="author" content="Paul Ajuwon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+</head>
+
+<body id="main">
+
+    <nav>
+      <ul style="float: left; top: 0;">
+        <li class="navBar"><a class="topNav" href='index.html'> Home </a></li>
+        <li class="navBar"><a class="topNav" href='biology.html'> Biology </a></li>
+
+    </ul>
+        <h1 style="text-align: center; margin-right: 10%  ;">Life Processes</h1>
+    </nav>
+    
+    <div class='next-button'>
+        <a class="prevflash" onclick="plusSlides(-1)">&#10094;</a>
+    </div> 
+    
+    <div class="mySlides fade">
+        <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <p>Cells</p>
+            <img src="muscleCell.png" alt="">
+          </div>
+          <div class="flip-card-back">
+            <p>Basic unit of life </p>
+          </div>
+        </div>
+        </div>
+        
+    </div>
+    <div class="mySlides fade">
+    
+        <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <p>Respiration</p>
+            <img src="" alt="">
+          </div>
+          <div class="flip-card-back">
+            <p>The release of energy from the oxidation of a fuel (typically glucose)</p>
+          </div>
+        </div>
+        </div>
+        
+    </div>
+    <div class="mySlides fade">
+    
+        <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <p>Mitochondria</p>
+            <img src="" alt="">
+          </div>
+          <div class="flip-card-back">
+            <p>Where respiration occurs</p>
+          </div>
+        </div>
+        </div>
+       
+    </div>
+    
+    <div class='next-button'>
+        <a class="nextflash" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+        <!-- Next and previous buttons -->
+    
+   
+
+      <footer>
+        
+    </footer>
+    </body>
+    </html>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+        }
+        </script>

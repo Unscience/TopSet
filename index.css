@@ -1,0 +1,976 @@
+body{
+    background-color:#ffffcc;
+    margin: none;
+    padding: none;
+    overflow: auto;
+    font-family: 'Courier New', monospace;
+}
+
+header{
+    left: 0;
+    margin-top:5%;
+    margin-bottom:5% ;
+    text-align: center;
+    background-color:black;
+    color:#ffffcc;
+    font-size: large;
+    padding: 1px;
+    width: 100%;
+    height: 20%;
+    float: left;
+}
+.headermain{
+    left: 0;
+    margin-top:6.1%;
+    margin-bottom:5%;
+    text-align: center;
+    background-color:black;
+    color:#ffffcc;
+    font-size: large;
+    padding: 1px;
+    width: 100%;
+    height: 20%;
+    float: left;
+}
+
+nav{
+    width: 100%;
+    height: fit-content;
+    margin: none;
+    border: 2px solid white;
+    
+    background-color: #ffffcc;
+    color: black;
+    text-align: left;
+
+    overflow: hidden;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+
+}
+
+nav:hover{
+    width: 100%;
+    height: fit-content;
+    margin: none;
+    border: 2px solid white;
+    
+    background-color: black;
+    text-align: left;
+    color: #ffffcc;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+footer{
+    float: left;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 250px;
+    position:static;
+
+    background-image:url(unscience.jpg);
+    opacity: 0.7;
+    background-position: left center;
+    background-position-x: 5%  ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: 1s;
+}
+
+.topNav{
+    top: 0;
+    
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: large;
+    color:black;
+    background-color:#ffffcc;
+    text-decoration: none;
+    padding: 10px;
+    height: fit-content;
+    transition: 1s;
+}
+
+.longNav{
+    text-align: left;
+    font-family: 'Segoe UI';
+    font-size: medium;
+    color:black;
+    display:inline-block;
+    text-decoration: none;
+    min-width: 50%;
+
+    height: fit-content;
+}
+
+.longNav:hover{
+    text-align: left;
+    font-family: 'Segoe UI';
+    font-size: large;
+    color:black;
+    text-shadow: 4px 4px white;
+    display:inline-block;
+    min-width: 50%;
+    height: fit-content;
+}
+.topNav:hover{
+    top: 0;
+    text-align: right;
+    font-family: 'Segoe UI';
+    font-size: large;
+    color:#ffffcc;
+    padding: 10px;
+    background-color:black;
+    text-decoration: none;
+    
+    height: fit-content;
+}
+
+
+
+
+.part{
+    background-image: url(TopSet.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    border-radius: 20px;
+    box-shadow: lightblue 4px 4px 1px 1px;
+    float: right;
+    width: 50%;
+    background-color: rgb(231, 231, 231);
+    padding: 10px;
+    margin: 10px;
+    border:5px solid rgb(255, 255, 255);
+    margin-right: 7%;
+    margin-top: 1%;
+    transition: 1s;
+}
+
+.part:hover{
+    background-image: url(TopSet.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    border-radius:20px;
+    box-shadow: white 4px 4px 1px 1px;
+    float: right;
+    width: 50%;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+    border:5px solid lightblue;
+    margin-right: 7%;
+    margin-top: 1%;
+    
+}
+
+.definition{
+    border: grey solid 5px;
+    font-style: italic;
+    width: fit-content;
+    background-color: hotpink;
+}
+
+p{
+    font-size: larger;
+}
+
+.navBar{
+    display: inline;
+}
+.sideNav{
+    margin-left:5%;
+    border: black;
+    box-shadow: white 4px 4px 4px 4px;
+    background-color: lightblue;
+    margin-top:10%;
+    position: fixed;
+    height:30%;
+    width: 25%;
+    min-width: 10%;
+    min-height: 10%;
+    overflow:auto;
+    border-radius:30px;
+    
+}
+
+.sidenavBar{
+    display:block;
+    margin: 5px;
+}
+
+.q{
+    width: none;
+    height: none;
+    transition: 1s ;
+}
+blockquote{
+    float: left;
+    left: 25%;
+    background-color: rgb(182, 181, 164);
+    width: 25%;
+    border-radius: 10px;
+
+    
+}
+
+.footlinks{
+ font-size: medium;
+ display: block;   
+}
+#igcse{
+    float: left;
+    
+}
+
+.slideshow{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    background-color: black;
+    opacity: 50%;
+    margin-top: 300px;
+}
+
+td,th{
+    border: black 1px solid;
+}
+
+.color{
+    background-color: darkgreen;
+}
+.topic{
+    text-align: left;
+    font-family: 'Segoe UI';
+    font-size: medium;
+    color:black;
+    display:inline-block;
+    text-decoration: none;
+    min-width: 50%;
+
+    height: fit-content;
+}
+
+.topic:hover{
+    text-align: left;
+    font-family: 'Segoe UI';
+    font-size: large;
+    color:black;
+    text-shadow: 2px 2px white;
+    display:inline-block;
+    min-width: 50%;
+    height: fit-content;
+}
+
+table{
+    box-shadow: white 4px 4px 4px 4px;
+    max-width: 70%;
+    min-width: 70%;
+}
+
+.flashcard-choice{
+    text-align: center;
+    float: left;
+    margin-left: 25%;
+    border: white 10px solid;
+    width: 20%;
+    height: 20%;
+    background-color: pink;
+    box-shadow: whitesmoke 4px 4px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.flashcard-choice:hover{
+    text-align: center;
+    float: left;
+    margin-left: 25%;
+    border: pink 10px solid;
+    width: 20%;
+    height: 20%;
+    background-color: white;
+    box-shadow: whitesmoke 4px 4px;
+    border-radius: 20px;
+}
+.flashcard-choice-link{
+    font-family: 'Segoe UI';
+    color:black;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.flashcard-choice-link:hover{
+    font-family: 'Segoe UI';
+    color:black;
+    text-shadow: 4px 4px white;
+}
+
+.notes-choice{
+    text-align: center;
+    float: right;
+    margin-right: 25%;
+    border: white 10px solid;
+    width: 20%;
+    height: 20%;
+    background-color:turquoise;
+    box-shadow: whitesmoke 4px 4px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.notes-choice:hover{
+    text-align: center;
+    float: right;
+    margin-right: 25%;
+    border:turquoise 10px solid;
+    width: 20%;
+    height: 20%;
+    background-color: white;
+    box-shadow: whitesmoke 4px 4px;
+    border-radius: 20px;
+}
+.notes-choice-link{
+    font-family: 'Segoe UI';
+    color:black;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.notes-choice-link:hover{
+    font-family: 'Segoe UI';
+    color:black;
+    text-shadow: 4px 4px white;
+}
+.heading{
+    color: black;
+}
+.heading nav:hover{
+    color: #ffffcc;
+}
+.intro{
+    margin-top: 5%;
+    float: right; 
+    width: 50%;
+    background-image: url(TopSet.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    height: 70px;
+    background-color:turquoise;
+    border:10px solid rgb(255, 255, 255);
+    margin-right:7%;
+    overflow: hidden;
+    transition: 1s;
+   
+}
+.intro:hover{
+    margin-top: 5%;
+    float: right; 
+    width: 50%;
+    height: fit-content;
+    background-image: url(TopSet.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 10%;
+
+    background-color:white;
+    border:10px solid turquoise;
+    margin-right:7%;
+   
+}
+.footNav{
+    font-family: 'Segoe UI';
+    font-size: large;
+    color:black;
+    background-color: #ffffcc;
+    text-decoration: none;
+    height: fit-content;
+    transition: 1s;
+}
+.footNav:hover{
+    font-family: 'Segoe UI';
+    font-size: large;
+    color:#ffffcc;
+    background-color:black;
+    text-decoration: none;
+    height: fit-content;
+    transition: 1s;
+}
+.searchNav{
+    font-family: 'Segoe UI';
+    font-size: large;
+    color:black;
+    background-color: #ffffcc;
+    text-decoration: none;
+    height: fit-content;
+    transition: 1s;
+
+}
+audio{
+    background-color: turquoise;
+    border: white 2px solid;
+    box-shadow: lightgray 4px 4px 4px;
+}
+
+.note{
+    border: silver 10px solid;
+    background-color: #ffffcc;
+    padding: 5px;
+    box-shadow: whitesmoke 4px 4px;
+    border-radius: 20px;
+
+}
+.glossary{
+    /* Popup container - can be anything you want */
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      color:#ff0055;
+      z-index: 0;
+    }
+    
+/* The actual popup */
+.glossary .definition {
+    visibility: hidden;
+    width: 160px;
+    background-color: #ffffcc;
+    color: #000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+    
+}
+
+/* Popup arrow */
+.glossary .definition::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: lightblue transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.glossary .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+.partfull{
+    
+    background-image: url(TopSet.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    border-radius: 20px;
+    box-shadow: lightblue 4px 4px 1px 1px;
+    width: 50%;
+    background-color: rgb(231, 231, 231);
+    padding: 10px;
+    border:5px solid rgb(255, 255, 255);
+    margin-top: 1%;
+    margin-left: 25%;
+    margin-bottom: 1%;
+    float: left;
+    
+    transition: 1s;
+}
+
+.partfull:hover{
+    background-image: url(TopSet.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    border-radius:20px;
+    box-shadow: white 4px 4px 1px 1px;
+    width: 50%;
+    background-color: lightblue;
+    padding: 10px;
+    border:5px solid lightblue;
+    margin-left: 25%;
+    margin-top: 1%;
+    float: left;
+    
+}
+.popupimages{
+    width: 100%;
+    height: 100%;
+}
+#news{
+    padding: 10%;
+    background-color: lightblue;
+    background-image: url(news.png);
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    height: 90%;
+}
+#sport{
+    padding: 10%;
+    background-color: #ccffcc;
+    background-image: url(Top set logo(transparent).png);
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    height: 90%;
+}
+.sectionTitle{
+    font-size: 75px;
+    width:fit-content;
+   
+}
+.Comment{
+ width: 30%;
+ font-size: 20px
+}
+#topset{
+    padding: 10%;
+    background-color: #ffffcc;
+    background-image: url(HomeImage.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    height: 90%;
+}
+.sectionLink{
+    width: fit-content;
+    background-color: black;
+    color: #cfcfcf;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 1%;
+}
+#study{
+    padding: 10%;
+    background-color: #ffcccc;
+    background-image: url(studying.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    height: 90%;
+}
+.socialmedialink{
+    border-radius: 30px;
+
+}
+#unique{
+    padding: 10%;
+    background-color: #ffcccc;
+    background-image: url(seblookingunique.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    height: 90%;
+}
+#dodds{
+    margin-top: 10%;
+    padding: 10%;
+    background-color: #aaaaaa;
+    background-image: url(dodd\'s\ logo.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    height: 90%;
+}
+
+#smiths{
+    padding: 10%;
+    background-color: #ffff88;
+    background-image: url(smiths\'s\ logo.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    height: 90%;
+}
+
+#tates{
+    padding: 10%;
+    background-color: #77ff99;
+    background-image: url(tate\'s\ logo.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    height: 90%;
+}
+
+/* w3Schools slideshow */
+{box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 50%;
+  position: relative;
+  margin: auto;
+  background-color: #ffffcc;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #ffffcc;
+  text-shadow:black 5px 5px; 
+  font-size: 15px;
+  position: absolute;
+  font-size: 50px;
+  font-family:Arial, sans-serif;
+  bottom: 20%;
+  width: 100%;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #aaaaaa;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #777777;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: black;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.slideshow{
+   height: 50%;
+    border: 5px solid #000;
+    border-radius: 50px;
+}
+#Calendar{
+    padding: 10%;
+    background-color: #ffffcc;
+    background-image: url(unscience.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    height: 90%;
+}
+#igcseSection{
+    padding: 10%;
+    background-color: #ffcc99;
+    background-image: url(unscience.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    height: 90%;
+}
+
+#alevel{
+    padding: 10%;
+    background-color: #cccccc;
+    background-image: url(unscience.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    height: 90%;
+}
+#biology{
+    padding: 10%;
+    background-color: #77ff77;
+    background-image: url(Biology.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: border;
+    background-size: 25%;
+    height: 90%;
+}
+#maths1,#maths2{
+    padding: 10%;
+    background-color: #77ff77;
+    background-image: url(Maths.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: border;
+    background-size: 25%;
+    height: 90%;
+}
+.notes{
+    padding: 10%;
+    background-color: lightblue;
+    background-image: url(unscience.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    height: 90%;
+    text-decoration: none;
+}
+.flashcards{
+    padding: 10%;
+    background-color: #fdb975;
+    background-image: url(unscience.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    height: 90%;
+    text-decoration: none;
+}
+#P1{
+margin-top: 10%;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    border-radius: 40px;
+    margin: 5%;
+    margin-top: 10%;
+    background-color: transparent;
+    width: 600px;
+    height: 300px;
+    float: left;
+    margin-left: 30%;
+    box-shadow: #aaaaaa 5px 5px 5px;
+     /* perspective: 1000px;  Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    border-radius: 40px;
+    position: relative;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    width: 600px;
+    height: 300px;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    border-radius: 40px;
+    background-color: rgb(231, 231, 231);
+    color: black;
+    width: 600px;
+    height: 300px;
+}
+
+/* Style the back side */
+.flip-card-back {
+    border-radius: 40px;
+    background-color:lightblue;
+    color: black;
+    transform: rotateY(180deg);
+    width: 600px;
+    height: 300px;
+}
+
+ .nextflash {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: #ccffcc;
+    border-radius:30px;
+  }
+  .prevflash {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    margin-left: 22%;
+    padding: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: #ccffcc;
+    border-radius:30px;
+  }
+  .nextflash:hover,.prevflash:hover{
+      background-color: black;
+      color:white;
+  }
+  #warning {
+    padding: 10%;
+    background-color: #ffccff;
+    background-image: url(warning.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-image: border;
+    background-size: 40%;
+    height: 90%;
+  }
+  #foryou {
+    padding: 10%;
+    background-color: #f9779f;
+    background-image: url(colorSpaced\ \(6\).png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-image: border;
+    background-size: 25%;
+    height: 90%;
+  }
+  #economics {
+    padding: 10%;
+    background-color: #f9779f;
+    background-image: url(economics.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: border;
+    background-size: 25%;
+    height: 90%;
+  }
+  #addmaths {
+    padding: 10%;
+    background-color: #ffcc99;
+    background-image: url(addMaths.html);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: border;
+    background-size: 25%;
+    height: 90%;
+  }
+  #chemistry {
+    padding: 10%;
+    background-color: #ffcc99;
+    background-image: url(chemistry.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: border;
+    background-size: 25%;
+    height: 90%;
+  }
+  #Physics {
+    padding: 10%;
+    background-color: #ffcc99;
+    background-image: url(Physics.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: border;
+    background-size: 25%;
+    height: 90%;
+  }
+  #ComputerScience {
+    padding: 10%;
+    background-color: #ffcc99;
+    background-image: url(ComputerScience.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: border;
+    background-size: 25%;
+    height: 90%;
+  }
+  #DesignTechnology {
+    padding: 10%;
+    background-color: #ffcc99;
+    background-image: url(DesignTechnology.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: border;
+    background-size: 25%;
+    height: 90%;
+  }
